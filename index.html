@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head style="background-image: url('https://cdn.glitch.global/fd943094-5a9d-47aa-8f8b-a44d7a7edced/BanterTablet1.jpg?v=1729309091369'); background-size: cover; background-size: cover;">
+  	<style>
+      :root { color-scheme: dark; background-color:"#000000";color: #FFFFFF; }
+/* Button Colours */
+a.buttonG { color: #00FF00; }
+p.urltext { color: #f35757;background-color: #202020; }
+a.buttonY { color: #FFFF00; }
+a.buttonGY { color: #AAFF00; }
+a.buttonR { color: #FF0000; }
+a.buttonW { color: #FFFFFF; }
+/* Button styles */
+a.buttonss { 
+	padding: 0.9vh 0.9vw; border: 0.1vh outset buttonborder; border-radius: 1vh;
+	background-color: #202020; text-decoration: none; margin:2px; line-height: 2.2;
+}
+/* Base styles */
+body { font-size: 40px; color: #ffffff; margin: 0; margin-left:0; margin-right:0; padding: 0; height: 100vh; background-color:#000000; position: relative;}
+  
+body::before {
+  content: ''; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://cdn.glitch.global/fd943094-5a9d-47aa-8f8b-a44d7a7edced/BanterTablet1.jpg?v=1729309091369");
+  background-repeat: no-repeat; background-position: top center; background-size: cover; z-index: -1;
+}
+  
+/* Larger screens */
+@media (min-width: 1200px) { body { font-size: 50px; } } 
+/* Smaller tablets and mobiles */
+@media (max-width: 900px) { body { font-size: 35px; } }
+input.url {font-size: 30px;}
+  	</style>
+    <meta name="color-scheme" content="dark">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Hello Stuff</title>
+  </head>
+  <body class="fixed bodyc"><div>
+    <center style="padding-top: 10vh;">
+	<p></p>
+	<p></p>
+  <br/>
+  <br/>
+  <br/>
+<!--   I.T.TRey  >>  CHANGE THE LINE BELOW THIS TO THE LATEST SCREEN CAST LINK EACH TIME YOU START SCREEN SHARE -->
+  <a href="https://screen.sdq.st:8443/?room=it-classroom" 
+     class="buttonG buttonss">View Screen Cast</a>
+  <br/>
+	<a href="https://youtu.be/kp94pGsa6ng?si=B_MspefPmeAdY3AW" class="buttonW buttonss">Banter Space Building</a>	
+	<a href="https://youtube.com/playlist?list=PLogIWMmBNVp5MwO5iJ_LaXNWPw76wBCnT&si=X6HhC0OJF5UyBE03" class="buttonW buttonss">Custom Avatar Creation</a>
+  <br/>
+  <a href="https://youtube.com/playlist?list=PL3GeP3YLZn5hhfaGRSmRia0OwPPMfJu0V&si=QtfDl_JekXaONU9C" class="buttonW buttonss">Blender Basics</a>
+  <a href="https://youtu.be/ChEfy-vNCmc?si=eMYwAAOxOIgKpjwQ" class="buttonW buttonss">Teleporting Player</a>
+  <br/>
+  <a href="https://www.youtube.com/" class="buttonW buttonss">YouTube</a>  
+	<details>
+		<summary>Click to Expand:</summary>
+		<a href="https://firer.at/pages/games.html" class="buttonG buttonss">Go Home</a>
+ <p class="urltext">Or Enter a URL here:<br/> 
+  <form id="form" method="get">
+  <input type="url" id="text" value="https://" class="url" size="40" placeholder="https://bantervr.com" onchange="document.getElementById('form').action = this.value;" />
+  <input type="button" id="btn0" value="Go" class="url" 
+         onclick="window.open(document.getElementById('text').value);" />
+  </form>
+	</p>
+  </details>
+	</center>
+	</div>
+  </body>
+</html>
